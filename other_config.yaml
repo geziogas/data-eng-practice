@@ -1,0 +1,8 @@
+input_data:
+  - name: Dave
+    age: 22
+  - name: Eve
+    age: 18
+
+filters:
+  min_age: 20
