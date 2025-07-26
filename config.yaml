@@ -1,0 +1,10 @@
+input_data:
+  - name: Alice
+    age: 25
+  - name: Bob
+    age: 19
+  - name: Charlie
+    age: 34
+
+filters:
+  min_age: 21
