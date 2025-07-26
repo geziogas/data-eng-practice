@@ -3,7 +3,7 @@ name: CI Demo
 on: [push]
 
 jobs:
-  test:
+  job_1:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -17,10 +17,12 @@ jobs:
     - name: Run HelloWorld Python script
       run: python hello.py
   
-  run:
+  job_2:
     runs-on: ubuntu-latest
     steps:
     - name: print random stuff
       run: |  
         echo "Random stuff"
         echo "Hey hey Yooooo"
+    - name: Run HelloWorld Python script
+      run: python hello.py
