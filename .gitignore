@@ -4,3 +4,6 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# Output files (keep input.csv, ignore only output)
+output.csv
