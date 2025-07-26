@@ -13,3 +13,6 @@ jobs:
       run: |
         echo "Running my first CI job"
         python --version
+    
+    - name: Run HelloWorld Python script
+      run: python hello.py
