@@ -16,3 +16,11 @@ jobs:
     
     - name: Run HelloWorld Python script
       run: python hello.py
+  
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print random stuff
+      run: |  
+        echo "Random stuff"
+        echo "Hey hey Yooooo"
