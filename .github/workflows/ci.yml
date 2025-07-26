@@ -20,6 +20,9 @@ jobs:
   job_2:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
     - name: print random stuff
       run: |  
         echo "Random stuff"
